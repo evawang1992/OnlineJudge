@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://user:user@ds161162.mlab.com:61162/cs503')
+mongoose.connect("mongodb://user1:user1234@ds113402.mlab.com:13402/oj");
 const restRouter = require('./routes/rest');
 const indexRouter = require('./routes/index');
 

@@ -14,15 +14,15 @@ export class EditorComponent implements OnInit {
   language: string = 'Java';
   sessionId: string;
   output: string = '';
-  
+
   defaultContent = {
     'Java': `public class Example {
-    public static void main(String[] args) { 
+    public static void main(String[] args) {
         // Type your Java code here 
-        } 
+        }
     }`,
-    'Python': `class Solution: 
-   def example(): 
+    'Python': `class Solution:
+   def example():
        # Write your Python code here`
   };
   constructor(private collaboration: CollaborationService,
@@ -49,7 +49,7 @@ export class EditorComponent implements OnInit {
     this.collaboration.init(this.editor, this.sessionId);
     this.editor.lastAppliedChange = null;
 
-    // register change event handler
+    // editor content change event handler
     this.editor.on('change', e => {
       console.log('editor changed: ' + JSON.stringify(e));
       if (this.editor.lastAppliedChange != e) {
@@ -57,7 +57,7 @@ export class EditorComponent implements OnInit {
       }
     });
 
-    // register changeCursor event handler
+    // user changeCursor event handler
     this.editor.getSession().getSelection().on('changeCursor', () => {
       const cursor = this.editor.getSession().getSelection().getCursor();
       console.log('curser move', JSON.stringify(cursor) );
@@ -80,11 +80,11 @@ export class EditorComponent implements OnInit {
     this.output = '';
   }
 
-  submit() {    
+  submit() {
     this.output = '';
     const userCodes = this.editor.getValue();
     console.log(userCodes);
-    
+
     const codes = {
       userCodes: userCodes,
       lang: this.language.toLocaleLowerCase()

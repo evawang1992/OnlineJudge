@@ -48,9 +48,6 @@ const getProblems = function() {
 }
 
 const getProblem = function(id) {
-    // return new Promise((resolve, reject) => {
-    //     resolve(problems.find(problem => problem.id === id));
-    // });
     return new Promise((resolve, reject) => {
         ProblemModel.findOne({id: id},function(err, problem) {
             if (err) {
@@ -63,15 +60,6 @@ const getProblem = function(id) {
 }
 
 const addProblem = function(newProblem) {
-    // return new Promise((resolve, reject) => {
-    //     if (problems.find(problem => problem.name === newProblem.name)) {
-    //         reject('problem name already exists');
-    //     } else {
-    //         newProblem.id = problems.length + 1;
-    //         problems.push(newProblem);
-    //         resolve(newProblem);
-    //     }
-    // });
     return new Promise((resolve, reject) => {
         ProblemModel.findOne({name: newProblem.name}, function(err, data) {
             if (data) {
