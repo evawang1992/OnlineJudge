@@ -7,7 +7,7 @@ const jsonParser = bodyParser.json();
 const nodeRestClient = require('node-rest-client').Client;
 const restClient = new nodeRestClient();
 
-const EXECUTOR_SERVER_URL = 'http://executor/build_and_run';
+const EXECUTOR_SERVER_URL = 'http://127.0.0.1:5000/build_and_run';
 // registering remote methods
 restClient.registerMethod('build_and_run', EXECUTOR_SERVER_URL, 'POST');
 

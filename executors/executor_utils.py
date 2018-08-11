@@ -20,7 +20,7 @@ python
 
 client = docker.from_env()
 
-IMAGE_NAME = 'mwangxx/cs503_1703'
+IMAGE_NAME = 'lanluokaka/fullstack-oj'
 CURRENT_DIR = os.path.dirname(os.path.relpath(__file__))
 TEMP_BUILD_DIR = '%s/tmp/' % CURRENT_DIR
 
@@ -49,12 +49,12 @@ def load_image():
         client.images.get(IMAGE_NAME)
         print 'image exists locally'
     except ImageNotFound:
-        print 'image not found locally, loading from odocker hub...'
+        print 'image not found locally, loading from docker hub...'
         client.images.pull(IMAGE_NAME)
     except APIError:
-        print 'image not found'
+        print 'image not found, dockhub is not accessible'
         return
-    print 'image loaded'
+    print 'image: [%s] loaded' % IMAGE_NAME
 
 def make_dir(dir):
     try:
