@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4a32ff41-b509-4789-8797-711fc757b707" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/executors/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/executors/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/executors/executor_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/executors/executor_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/executors/executor_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/executors/executor_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oj-server/routes/rest.js" beforeDir="false" afterPath="$PROJECT_DIR$/oj-server/routes/rest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/inline.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/inline.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor.bundle.js.map" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,6 +19,7 @@
     <session id="36652493">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.opened" value="2" />
@@ -38,7 +35,7 @@
         <counts>
           <entry key="Dockerfile" value="16" />
           <entry key="html" value="112" />
-          <entry key="js" value="14" />
+          <entry key="js" value="24" />
           <entry key="py" value="148" />
           <entry key="ts" value="912" />
         </counts>
@@ -47,29 +44,29 @@
         <counts>
           <entry key="Dockerfile" value="16" />
           <entry key="HTML" value="112" />
-          <entry key="JavaScript" value="14" />
+          <entry key="JavaScript" value="24" />
           <entry key="PLAIN_TEXT" value="148" />
           <entry key="TypeScript" value="912" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="2" />
+          <entry key="Dockerfile" value="3" />
           <entry key="html" value="1" />
-          <entry key="js" value="2" />
+          <entry key="js" value="4" />
           <entry key="json" value="1" />
-          <entry key="py" value="3" />
+          <entry key="py" value="6" />
           <entry key="ts" value="6" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dockerfile" value="2" />
+          <entry key="Dockerfile" value="3" />
           <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="2" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PLAIN_TEXT" value="8" />
           <entry key="TypeScript" value="6" />
         </counts>
       </usages-collector>
@@ -78,60 +75,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oj-client/src/app/components/problem-list/problem-list.component.html">
+        <entry file="file://$PROJECT_DIR$/executors/executor_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oj-client/src/app/services/input.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oj-client/src/app/components/editor/editor.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-132">
+              <caret line="51" column="36" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/oj-client/src/app/services/data.service.ts">
+        <entry file="file://$PROJECT_DIR$/executors/executor_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/executors/executor_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+            <state relative-caret-position="180">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>127</find>
+      <find>local</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -171,7 +138,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="292" />
-    <option name="y" value="101" />
+    <option name="y" value="117" />
     <option name="width" value="1386" />
     <option name="height" value="603" />
   </component>
@@ -203,12 +170,6 @@
               <item name="week04" type="b2602c69:ProjectViewProjectNode" />
               <item name="week04" type="462c0819:PsiDirectoryNode" />
               <item name="oj-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week04" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week04" type="462c0819:PsiDirectoryNode" />
-              <item name="oj-server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,19 +215,19 @@
       <option name="presentableId" value="Default" />
       <updated>1533922539836</updated>
       <workItem from="1533922541051" duration="4401000" />
-      <workItem from="1533997234981" duration="11891000" />
+      <workItem from="1533997234981" duration="14737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16292000" />
+    <option name="totallyTimeSpent" value="19138000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="292" y="101" width="1386" height="603" extended-state="0" />
+    <frame x="292" y="117" width="1386" height="603" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.27366105" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27366105" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -424,49 +385,49 @@
     <entry file="file://$PROJECT_DIR$/oj-server/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/executors/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/executors/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/oj-client/src/app/services/data.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/executors/executor_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="-629">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oj-server/routes/rest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="330">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oj-server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45" />
+        <state relative-caret-position="-314" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/executors/executor_utils.py">
+    <entry file="file://$PROJECT_DIR$/executors/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+        <state relative-caret-position="75">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oj-client/src/app/services/data.service.ts">
+    <entry file="file://$PROJECT_DIR$/executors/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/executors/executor_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-132">
+          <caret line="51" column="36" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/executors/executor_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
